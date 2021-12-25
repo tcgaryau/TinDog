@@ -13,7 +13,6 @@ Authors:
 ## Technologies
 Technologies used for this project:
 * HTML, CSS
-* JavaScript
 * Bootstrap 5.1
 	
 ## Acknowledgment

@@ -1,36 +1,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700;900&family=Ubuntu&display=swap");
 body {
   font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
 
-#title {
-  background-color: #ff4c68;
-  color: #fff;
-}
-
-.container-fluid {
-  padding: 3% 15% 7%;
-}
-
-h1 {
+h1,h2,h3,h4,h5,h6 {
   font-family: "Montserrat", sans-serif;
-  font-size: 3.5rem;
-  line-height: 1.5;
-  font-weight: 900;
-}
-h2 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 3rem;
-  font-weight: 700;
-  line-height: 1.5;
-}
-h3 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
 }
 
 p {
   color: #8f8f8f;
+}
+
+/* Headings */
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.section-heading {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+/* Container Section */
+.container-fluid {
+  padding: 5% 15%;
 }
 
 /* Navigation Bar */
@@ -59,6 +56,17 @@ p {
   margin: 5% 3% 5% 0%;
 }
 
+/* Title Section */
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
 /* Title Image */
 
 .title-image {
@@ -70,13 +78,16 @@ p {
 
 /* Features Section */
 #features {
-  padding: 5% 15%;
   background-color: #fff;
   position: relative;
 }
 
+.feature-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
 .feature-box {
-  text-align: center;
   padding: 5%;
 }
 
@@ -91,24 +102,24 @@ p {
 
 /* Testimonial Section */
 #testimonials {
-  text-align: center;
   background-color: #ef8172;
   color: #fff;
 }
 
+.testimonial-text {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
 .testimonial-image {
   width: 10%;
   border-radius: 100%;
   margin: 20px;
 }
 
-.carousel-item {
-  padding: 5% 15%;
-}
 
 #press {
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -121,11 +132,28 @@ p {
 
 #pricing {
   padding: 100px;
-  text-align: center;
 }
 
+.price-text {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
 .pricing-column {
   padding: 3% 2%;
+}
+
+/* CTA Section */
+
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+/* Footer Section */
+
+.social-icon {
+  margin: 20px 10px;
 }
 
 @media (max-width: 1028px) {
