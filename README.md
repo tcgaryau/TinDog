@@ -5,7 +5,7 @@
 * [Acknowledgment](#Acknowledgment)
 
 ## General Info
-This is a single-page web app that is a Tinder clone but for Dogs. It is used to play around with Bootstrap 5.
+This is a single-page web app that is a Tinder clone but for Dogs. It is used to familiarize myself with Bootstrap 5.1 and CSS.
 
 Authors: 
 * Gary Au
