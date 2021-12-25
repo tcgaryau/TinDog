@@ -6,7 +6,7 @@
 ## General Info
 This is a single web-page application to mimic Tinder using dogs.
 
-* Author: 
+Author: 
 * Gary Au
 	
 ## Technologies
