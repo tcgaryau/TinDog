@@ -14,7 +14,8 @@ Authors:
 Technologies used for this project:
 * HTML, CSS
 * JavaScript
-* Bootstrap 
+* Bootstrap 5.1
 	
 ## Acknowledgment
-* London App Brewery
+London App Brewery
+* TinDog starting files
